@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220">
+  <style>
+    .kaim-blue {
+      fill: #0055a4;
+    }
+  </style>
+  <!-- Network Nodes -->
+  <circle class="kaim-blue" cx="114" cy="37" r="15"/>
+  <circle class="kaim-blue" cx="85" cy="58" r="10"/>
+  <circle class="kaim-blue" cx="150" cy="60" r="10"/>
+  <circle class="kaim-blue" cx="100" cy="85" r="10"/>
+  <circle class="kaim-blue" cx="127" cy="100" r="10"/>
+  <circle class="kaim-blue" cx="80" cy="115" r="10"/>
+  <circle class="kaim-blue" cx="60" cy="90" r="10"/>
+  <circle class="kaim-blue" cx="92" cy="140" r="10"/>
+  
+  <!-- Network Connections -->
+  <line class="kaim-blue" x1="114" y1="37" x2="85" y2="58" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="114" y1="37" x2="150" y2="60" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="85" y1="58" x2="100" y2="85" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="150" y1="60" x2="127" y2="100" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="100" y1="85" x2="127" y2="100" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="100" y1="85" x2="80" y2="115" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="60" y1="90" x2="80" y2="115" stroke="#0055a4" stroke-width="4"/>
+  <line class="kaim-blue" x1="80" y1="115" x2="92" y2="140" stroke="#0055a4" stroke-width="4"/>
+  
+  <!-- KAIM Letters -->
+  <path class="kaim-blue" d="M160 60 L160 160 L190 160 L190 125 L230 160 L270 160 L215 115 L265 60 L230 60 L190 95 L190 60 Z"/> <!-- K -->
+  <path class="kaim-blue" d="M275 60 L305 60 L345 145 L385 60 L415 60 L355 170 L335 170 Z"/> <!-- A -->
+  <path class="kaim-blue" d="M425 60 L455 60 L455 160 L425 160 Z"/> <!-- I -->
+  <path class="kaim-blue" d="M465 60 L525 160 L495 160 L485 140 L465 85 L445 140 L435 160 L405 160 Z"/> <!-- M -->
+  
+  <!-- Registered Trademark Symbol -->
+  <circle class="kaim-blue" cx="525" cy="70" r="8"/>
+  <text x="521" y="74" fill="white" font-family="Arial" font-size="12" font-weight="bold">R</text>
+</svg>
